@@ -1,0 +1,9 @@
+git clone git@github.com:vim-scripts/colorizer.git
+git clone git@github.com:Raimondi/delimitMate.git
+git clone git@github.com:itchyny/lightline.vim.git
+git clone git@github.com:scrooloose/nerdtree.git
+git clone git@github.com:vim-scripts/nextval.git
+git clone git@github.com:scrooloose/syntastic.git
+git clone git@github.com:godlygeek/tabular.git
+git clone git@github.com:majutsushi/tagbar.git
+git clone git@github.com:csscomb/vim-csscomb.git
