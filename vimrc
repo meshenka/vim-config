@@ -2,26 +2,28 @@ set nocompatible
 set number
 set relativenumber
 
+" change the mapleader from \ to ,
+let mapleader=","
+
 filetype plugin indent on
 syntax on
 
 runtime! config/**/*.vim
+
+let g:pathogen_disabled = ['neocomplete.vim', 'neosnippet.vim']
 
 " Initialisation de pathogen
 call pathogen#infect()
 call pathogen#helptags()
 
 " nerdtree
-map <C-n> :NERDTreeToggle<CR>
+map <leader>n :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 map <silent> <A-Up> :wincmd k<CR>
 map <silent> <A-Down> :wincmd j<CR>
 map <silent> <A-Left> :wincmd h<CR>
 map <silent> <A-Right> :wincmd l<CR>
-
-" change the mapleader from \ to ,
-" let mapleader=","
 
 " Quickly edit/reload the vimrc file
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
@@ -34,7 +36,6 @@ set tabstop=4     " a tab is four spaces
 set backspace=indent,eol,start " allow backspacing over everything in insert mode
 set autoindent    " always set autoindenting on
 set copyindent    " copy the previous indentation on
-set number        " always show line numbers
 set shiftwidth=4  " number of spaces to use for autoindenting
 set shiftround    " use multiple of shiftwidth when indenting with '<' and '>'
 set showmatch     " set show matching parenthesis
@@ -51,7 +52,7 @@ set title                " change the terminal's title
 set visualbell           " don't beep
 set noerrorbells         " don't beep
 
-nmap <F8> :TagbarToggle<CR>
+nmap <leader>tb :TagbarToggle<CR>
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -64,7 +65,7 @@ let g:syntastic_check_on_wq = 0
 
 set laststatus=2
 
-map <c-f> :call JsBeautify()<cr>
+" map <c-f> :call JsBeautify()<cr>
 " or
 autocmd FileType javascript noremap <buffer>  <c-f> :call JsBeautify()<cr>
 " for json
@@ -81,4 +82,7 @@ autocmd FileType css noremap <buffer> <leader>bc :CSScomb<CR>
 " " Automatically comb your CSS on save
 autocmd BufWritePre,FileWritePre *.css,*.less,*.scss,*.sass silent! :CSScomb
 
-let g:php_cs_fixer_config = "sf23"
+let g:syntastic_javascript_checkers = ['eslint']
+
+let g:php_cs_fixer_config = "sf23" 
+
