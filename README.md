@@ -20,3 +20,5 @@ step
   * vim-jsbeautify -- C-f to beautify js file 
   * vim-matchit -- a way to move around matching code blocks (if, else, etc)
   * vim-surround -- select around thing
+  * supertab -- autocompletion with tab
+  * vim-commentary -- comment in and out code

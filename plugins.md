@@ -7,3 +7,9 @@ git clone git@github.com:scrooloose/syntastic.git
 git clone git@github.com:godlygeek/tabular.git
 git clone git@github.com:majutsushi/tagbar.git
 git clone git@github.com:csscomb/vim-csscomb.git
+git clone git@github.com:ervandew/supertab.git
+git clone git@github.com:tpope/vim-fugitive.git
+git clone git@github.com:mksimr/vim-jsbeautify.git
+git clone git@github.com:edsono/vim-matchit.git
+git clone git://github.com/tpope/vim-surround.git
+git clone git@github.com:tpope/vim-commentary.git
