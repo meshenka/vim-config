@@ -14,3 +14,4 @@ git clone git@github.com:edsono/vim-matchit.git
 git clone git@github.com:tpope/vim-surround.git
 git clone git@github.com:tpope/vim-commentary.git
 git clone git@github.com:stephpy/vim-php-cs-fixer.git
+git clone git@github.com:ctrlpvim/ctrlp.vim.git

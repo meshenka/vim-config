@@ -23,3 +23,4 @@ step
   * supertab -- autocompletion with tab
   * vim-commentary -- comment in and out code
   * vim-php-cs-fixer -- enable php coding style fixer
+  * ctrlp.vim -- fuzzy file finder
