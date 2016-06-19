@@ -80,3 +80,5 @@ autocmd FileType html noremap <buffer> <c-f> :call HtmlBeautify()<cr>
 autocmd FileType css noremap <buffer> <leader>bc :CSScomb<CR>
 " " Automatically comb your CSS on save
 autocmd BufWritePre,FileWritePre *.css,*.less,*.scss,*.sass silent! :CSScomb
+
+let g:php_cs_fixer_config = "sf23"

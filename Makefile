@@ -13,9 +13,9 @@ config-setup:
 	mkdir -p .vim/config
 	mkdir -p .vim/bundle
 
-plugins-install: config-setup pathogen
+plugins-install: pathogen
 	cd .vim/bundle && \ 
-	@while read -r plugin; do \
+	while read -r plugin; do \
 		git clone `$$plugin`; \
 	done <plugins.md
 

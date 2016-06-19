@@ -11,5 +11,6 @@ git clone git@github.com:ervandew/supertab.git
 git clone git@github.com:tpope/vim-fugitive.git
 git clone git@github.com:mksimr/vim-jsbeautify.git
 git clone git@github.com:edsono/vim-matchit.git
-git clone git://github.com/tpope/vim-surround.git
+git clone git@github.com:tpope/vim-surround.git
 git clone git@github.com:tpope/vim-commentary.git
+git clone git@github.com:stephpy/vim-php-cs-fixer.git
