@@ -22,3 +22,4 @@ step
   * vim-surround -- select around thing
   * supertab -- autocompletion with tab
   * vim-commentary -- comment in and out code
+  * vim-php-cs-fixer -- enable php coding style fixer
