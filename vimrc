@@ -65,17 +65,17 @@ let g:syntastic_check_on_wq = 0
 
 set laststatus=2
 
-" map <c-f> :call JsBeautify()<cr>
+" map <c-f> :call JsBeautify()<CR>
 " or
-autocmd FileType javascript noremap <buffer>  <c-f> :call JsBeautify()<cr>
+autocmd FileType javascript noremap <buffer>  <c-f> :call JsBeautify()<CR>
 " for json
-autocmd FileType json noremap <buffer> <c-f> :call JsonBeautify()<cr>
+autocmd FileType json noremap <buffer> <c-f> :call JsonBeautify()<CR>
 " for jsx
-autocmd FileType jsx noremap <buffer> <c-f> :call JsxBeautify()<cr>
+autocmd FileType jsx noremap <buffer> <c-f> :call JsxBeautify()<CR>
 " for html
-autocmd FileType html noremap <buffer> <c-f> :call HtmlBeautify()<cr>
+autocmd FileType html noremap <buffer> <c-f> :call HtmlBeautify()<CR>
 " for css or scss
-" autocmd FileType css noremap <buffer> <c-f> :call CSSBeautify()<cr>
+" autocmd FileType css noremap <buffer> <c-f> :call CSSBeautify()<CR>
 "
 " Map bc to run CSScomb. bc stands for beautify css
 autocmd FileType css noremap <buffer> <leader>bc :CSScomb<CR>
@@ -90,8 +90,8 @@ let g:php_cs_fixer_config = "sf23"
 let g:neocomplete#enable_at_startup = 1
 
 function! IPhpInsertUse()
-	  call PhpInsertUse()
-	  call feedkeys('a',  'n')
+  call PhpInsertUse()
+  call feedkeys('a',  'n')
 endfunction
 autocmd FileType php inoremap <leader>u <Esc>:call IPhpInsertUse()<CR>
 autocmd FileType php noremap <leader>u :call PhpInsertUse()<CR>
