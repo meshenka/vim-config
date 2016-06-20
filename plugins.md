@@ -1,17 +1,20 @@
-git clone git@github.com:vim-scripts/colorizer.git
-git clone git@github.com:Raimondi/delimitMate.git
-git clone git@github.com:itchyny/lightline.vim.git
-git clone git@github.com:scrooloose/nerdtree.git
-git clone git@github.com:vim-scripts/nextval.git
-git clone git@github.com:scrooloose/syntastic.git
-git clone git@github.com:godlygeek/tabular.git
-git clone git@github.com:majutsushi/tagbar.git
-git clone git@github.com:csscomb/vim-csscomb.git
-git clone git@github.com:ervandew/supertab.git
-git clone git@github.com:tpope/vim-fugitive.git
-git clone git@github.com:mksimr/vim-jsbeautify.git
-git clone git@github.com:edsono/vim-matchit.git
-git clone git@github.com:tpope/vim-surround.git
-git clone git@github.com:tpope/vim-commentary.git
-git clone git@github.com:stephpy/vim-php-cs-fixer.git
-git clone git@github.com:ctrlpvim/ctrlp.vim.git
+git@github.com:vim-scripts/colorizer.git
+git@github.com:Raimondi/delimitMate.git
+git@github.com:itchyny/lightline.vim.git
+git@github.com:scrooloose/nerdtree.git
+git@github.com:vim-scripts/nextval.git
+git@github.com:scrooloose/syntastic.git
+git@github.com:godlygeek/tabular.git
+git@github.com:majutsushi/tagbar.git
+git@github.com:csscomb/vim-csscomb.git
+git@github.com:ervandew/supertab.git
+git@github.com:tpope/vim-fugitive.git
+git@github.com:maksimr/vim-jsbeautify.git
+git@github.com:edsono/vim-matchit.git
+git@github.com:tpope/vim-surround.git
+git@github.com:tpope/vim-commentary.git
+git@github.com:stephpy/vim-php-cs-fixer.git
+git@github.com:ctrlpvim/ctrlp.vim.git
+git@github.com:arnaud-lb/vim-php-namespace.git
+git@github.com:beyondwords/vim-twig.git
+git@github.com:ap/vim-buftabline.git

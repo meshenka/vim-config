@@ -24,3 +24,6 @@ step
   * vim-commentary -- comment in and out code
   * vim-php-cs-fixer -- enable php coding style fixer
   * ctrlp.vim -- fuzzy file finder
+  * vim-php-namespace -- manager class uses 
+  * vim-twig -- twig color synthax
+  * vim-buftabline -- header line with list of buffers

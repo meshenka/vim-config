@@ -86,3 +86,19 @@ let g:syntastic_javascript_checkers = ['eslint']
 
 let g:php_cs_fixer_config = "sf23" 
 
+
+let g:neocomplete#enable_at_startup = 1
+
+function! IPhpInsertUse()
+	  call PhpInsertUse()
+	  call feedkeys('a',  'n')
+endfunction
+autocmd FileType php inoremap <leader>u <Esc>:call IPhpInsertUse()<CR>
+autocmd FileType php noremap <leader>u :call PhpInsertUse()<CR>
+
+autocmd FileType php inoremap <Leader>s <Esc>:call PhpSortUse()<CR>
+autocmd FileType php noremap <Leader>s :call PhpSortUse()<CR>
+
+nnoremap <C-N> :bnext<CR>
+nnoremap <C-M> :bprev<CR>
+
