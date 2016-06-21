@@ -18,3 +18,4 @@ git@github.com:ctrlpvim/ctrlp.vim.git
 git@github.com:arnaud-lb/vim-php-namespace.git
 git@github.com:beyondwords/vim-twig.git
 git@github.com:ap/vim-buftabline.git
+git@github.com:vim-airline/vim-airline.git

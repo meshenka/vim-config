@@ -27,3 +27,4 @@ step
   * vim-php-namespace -- manager class uses 
   * vim-twig -- twig color synthax
   * vim-buftabline -- header line with list of buffers
+  * vim-airline -- advanced status and tabline
