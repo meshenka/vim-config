@@ -28,3 +28,4 @@ step
   * vim-twig -- twig color synthax
   * vim-buftabline -- header line with list of buffers
   * vim-airline -- advanced status and tabline
+  * vim-gitgutter -- git diff in line row
