@@ -1,3 +1,8 @@
+#
+# main task, install all
+install: pathogen plugins-install vimrc
+	@echo done.
+	
 # initialize file structure
 list:
 	@while read -r plugin; do \
@@ -31,6 +36,3 @@ vimrc: pathogen
 	cp vimrc .vim/vimrc
 	ln -s .vim/vimrc .vimrc
 
-# main task, install all
-install: pathogen plugins-install vimrc
-	@echo done.
